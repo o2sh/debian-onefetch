@@ -1,5 +1,5 @@
-onefetch (2.18.1-1) unstable; urgency=medium
+onefetch (2.18.1) kinetic; urgency=medium
 
-  * 2.18.1 release (Closes: #943720).
+  * 2.18.1 release.
 
  -- Ossama Hjaji <ossama-hjaji@live.fr>  Sun, 25 Jun 2023 01:30:00 +0100
