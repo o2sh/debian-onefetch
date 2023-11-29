@@ -1,5 +1,9 @@
 # debian-onefetch
 
+## Misc
+- help2man onefetch -n "Command-line Git information tool" >docs/onefetch.1
+
+## Install
 - wget https://github.com/o2sh/onefetch/archive/2.18.1.tar.gz
 - tar xzvf 2.18.1.tar.gz
 - cp 2.18.1.tar.gz onefetch_2.18.1.orig.tar.gz
