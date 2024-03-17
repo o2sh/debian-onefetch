@@ -8,7 +8,8 @@
 - tar xzvf 2.18.1.tar.gz
 - cd onefetch-2.18.1/ && rm -f Makefile
 - cargo vendor debian/vendor
-- cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor && cd ..
+- cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor
+- cp -R ~/dev/debian-onefetch/debian/* .
 - update changelog and files
 - cd ..
 - dpkg-buildpackage -S -us -uc
