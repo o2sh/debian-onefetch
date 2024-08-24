@@ -1,7 +1,7 @@
 # debian-onefetch
 
 ## Misc
-- help2man onefetch -n "Command-line Git information tool" >docs/onefetch.1
+- help2man onefetch help2man --no-info -n "Command-line Git information tool" >docs/onefetch.1
 
 ## Deploy to launchpad
 - wget https://github.com/o2sh/onefetch/archive/2.18.1.tar.gz
