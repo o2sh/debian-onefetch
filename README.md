@@ -16,7 +16,7 @@
 - cp -R ~/dev/debian-onefetch/debian/* .
 - update changelog and files
 - cd ..
-- 
+  
 ## Deploy to launchpad
 - dpkg-buildpackage -S -us -uc
 - cd ..
